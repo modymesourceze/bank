@@ -4,7 +4,7 @@ from kvsqlite.sync import Client
 from telebot.types import InlineKeyboardButton as btn, InlineKeyboardMarkup as mk 
 db = Client("usess.hex")
 token = Mody.ELHYBA
-bot = telebot.TeleBot(token, num_threads=100, skip_pending=True, parse_mode="html")
+bot = telebot.TeleBot('token', num_threads=100, skip_pending=True, parse_mode="html")
 rdod = ["بوت", "مارسلين", "بووت", "بوتي", "البوت"]
 sudo   = [6581896306]#ADMIN
 @bot.message_handler(commands=["start"])
