@@ -1,0 +1,26 @@
+{
+	"name": "The Bank",
+	"description": "بوت لعبة البنك",
+	"logo": "https://telegra.ph/file/bd0fde82d09f7681afc99.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/modymesourceze/bank",
+    "env": {
+        "ELHYBA": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""            
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
